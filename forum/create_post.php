@@ -6,7 +6,7 @@
     }
     if($_SERVER["REQUEST_METHOD"] = "POST") {
       $poster = $_SESSION["username"];
-      $conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "forum");
+      $conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
       $errors = "";
       $title = htmlspecialchars($_POST["title"]);
       $post_desc =  htmlspecialchars($_POST["desc"]);
