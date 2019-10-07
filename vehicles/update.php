@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "vehicles");
+$conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
 $volvo = mysqli_query($conn, "SELECT * FROM volvo;");
 $info = mysqli_fetch_array($volvo);
 
