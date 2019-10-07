@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "vehicles");
+$conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
 $hiace = mysqli_query($conn, "SELECT * FROM hiace;");
 $info = mysqli_fetch_array($hiace);
 
