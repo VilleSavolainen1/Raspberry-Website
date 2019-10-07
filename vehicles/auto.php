@@ -30,7 +30,7 @@
      <div class="page-header clearfix">
       <h2 style="text-align: center;">Volvo V50</h2>
     <?php
-        $conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "vehicles");
+        $conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
 	$sql ="SELECT * FROM volvo";
                    if($result = mysqli_query($conn, $sql)){
                         if(mysqli_num_rows($result) > 0){
@@ -82,7 +82,7 @@
      <div class="page-header clearfix">
       <h2 style="text-align: center;">Toyota Hiace</h2>
     <?php
-        $conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "vehicles");
+        $conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
 	$sql ="SELECT * FROM hiace";
                    if($result = mysqli_query($conn, $sql)){
                         if(mysqli_num_rows($result) > 0){
