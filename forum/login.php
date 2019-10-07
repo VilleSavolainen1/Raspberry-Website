@@ -1,7 +1,7 @@
 <?php
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-    $conn = mysqli_connect("localhost", "foorumi", "krevifoorumi", "forum");
+    $conn = mysqli_connect("localhost", "TITLE", "TITLE", "TITLE");
     $username = htmlspecialchars($_POST["username"]);
     $password = htmlspecialchars($_POST["password"]);
 
