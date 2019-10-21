@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] = "POST") {
       $cooling_oil = htmlspecialchars($_POST["cooling_oil"]);
 
     if(empty($oil) or empty($timing_belt) or empty($air_filter) or empty($cooling_oil)) {
-      $errors = "";
+      $errors = "Täytä kaikki kentät!";
     } else {
       $sql = mysqli_query($conn, "SELECT * FROM volvo;");
       $data = mysqli_fetch_array($sql);
